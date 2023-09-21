@@ -45,7 +45,7 @@ $('.responsive').slick({
 $('.custum-slider').slick({
     dots: false,
     arrows: false,
-    infinite: false,
+    infinite: true,
     speed: 5000,
     autoplay: true,
     autoplaySpeed: 0,
