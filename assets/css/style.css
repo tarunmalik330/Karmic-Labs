@@ -297,7 +297,7 @@
   border-radius: 30px;
   overflow: hidden;
 } */
-.footer_img{
+.footer_img {
   transition: 0.3s linear;
 }
 .footer_img:hover {
