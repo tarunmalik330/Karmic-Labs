@@ -3,12 +3,12 @@ function openNav() {
     document.body.classList.toggle("overflow_hidden");
     document.getElementById("menubtn-icon").classList.toggle("cross")
 }
-setTimeout(() => {
-    console.log("Delayed for 5 second.");
-    document.getElementById("preloader").classList.add("opacity-0")
-    document.getElementById("preloader").classList.add("pointer_event_none")
-    document.body.classList.remove("overflow-hidden")
-}, 5000);
+// setTimeout(() => {
+//     console.log("Delayed for 5 second.");
+//     document.getElementById("preloader").classList.add("opacity-0")
+//     document.getElementById("preloader").classList.add("pointer_event_none")
+//     document.body.classList.remove("overflow-hidden")
+// }, 5000);
 $('.responsive').slick({
     dots: false,
     arrows: false,
