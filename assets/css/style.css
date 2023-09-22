@@ -23,7 +23,7 @@
 .bg_white {
   background-image: url("../images/webp/bg_white.webp");
   object-fit: cover;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -323,17 +323,17 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #040404; 
+  background: #040404;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #040404; 
+  background: #040404;
 }
 .footer_img {
   transition: 0.3s linear;
@@ -414,6 +414,9 @@
 
   .cross .line3 {
     transform: rotate(-50deg) translateY(-50%);
+  }
+  .bg_white{
+    background-size: cover;
   }
 }
 @media (min-width: 576px) and (max-width: 992px) {
