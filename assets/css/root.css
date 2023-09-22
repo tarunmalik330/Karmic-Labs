@@ -41,8 +41,8 @@
   font-weight: var(--fw-500);
 }
 .fw_500:hover {
-  /* -webkit-text-stroke: 1px white; */
-  font-weight: 700 !important;
+  -webkit-text-stroke: 1px white;
+  /* font-weight: 700 !important; */
   transition: 0.3s linear;
 }
 .fw_600 {
