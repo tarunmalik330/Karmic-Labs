@@ -316,6 +316,25 @@
   border-radius: 30px;
   overflow: hidden;
 } */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #040404; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #040404; 
+}
 .footer_img {
   transition: 0.3s linear;
   border: 1px solid white !important;
@@ -327,7 +346,6 @@
   -webkit-animation: popupdown 1.5s infinite linear;
   animation: popupdown 1.5s linear infinite;
 }
-
 @-webkit-keyframes popupdown {
   0% {
     -webkit-transform: translateY(0);
