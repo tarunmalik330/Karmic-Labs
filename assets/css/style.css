@@ -299,6 +299,7 @@
 } */
 .footer_img {
   transition: 0.3s linear;
+  border: 1px solid white !important;
 }
 .footer_img:hover {
   box-shadow: 0px 4px 15px 0px rgba(255, 255, 255, 0.124) !important;
